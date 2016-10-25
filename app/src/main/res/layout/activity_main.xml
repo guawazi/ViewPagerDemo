@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="orange.com.viewpagerdemo.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_shuffling_1"
+        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:layout_height="wrap_content"
+        android:text="无限轮播1(头尾加1的方式)" />
+
+    <Button
+        android:id="@+id/btn_shuffling_2"
+        android:onClick="onClick"
+        android:text="无限轮播(设置较大数方式)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
